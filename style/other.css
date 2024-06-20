@@ -1,0 +1,142 @@
+
+#hero {
+    height: 400px;
+    background-image: url(../assets/common-banner.png);
+    background-position: right;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 100px;
+    color: white;
+   
+}
+
+#hero > h1{
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
+
+#hero > div > a{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 0px 20px;
+
+}
+
+
+.container2{
+    padding: 0px 200px;
+}
+
+
+/* portfolio-detail page styling */
+
+
+.detailimg > img{
+    width: 100%;
+}
+
+
+.detailcard{
+    background: #f8faff;
+
+}
+
+.detailcontent{
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    gap: 30px;
+}
+
+.detailtext{
+    width: 60%;
+}
+.detailinfo{
+    width: 40%;
+    }
+
+.detailcard{
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.leftdata{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    width: 120px;
+    
+}
+
+.rightdata{
+    color: gray;
+}
+
+
+@media screen and (max-width: 1100px) {
+    .detailtext{
+        width: 40%;
+    }
+    .detailinfo{
+        width: 60%;
+        }
+
+        
+}
+
+
+@media screen and (max-width: 960px) {
+    #hero{
+        position: relative;
+        top: 10px;
+    }
+}
+
+
+
+@media screen and (max-width: 770px) {
+    .container2{
+        padding: 0px 50px;
+    }
+    #hero > h1{
+        font-size: 25px;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        font-weight: 800;
+    }
+    #hero > div > a{
+        color: white;
+        font-size: 10px;
+        text-transform: uppercase;
+        padding: 0px 5px;
+    
+    }
+    .fa-solid{
+        font-size: 10px;
+    }
+    .detailcontent{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .detailtext{
+        width: 100%;
+
+    }
+    .detailinfo{
+        width: 100%;
+        }
+    
+}
+
+
