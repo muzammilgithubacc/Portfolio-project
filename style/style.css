@@ -728,7 +728,7 @@ background-image: url(../assets/p2.jpg);
     .nav-menu {
         background-color: white;
         position: absolute;
-        top: -400px;
+        top: -600px;
         flex-direction: column;
         padding: 30px;
         left: 0;

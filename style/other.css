@@ -43,10 +43,7 @@
 }
 
 
-.detailcard{
-    background: #f8faff;
 
-}
 
 .detailcontent{
     margin-top: 50px;
@@ -63,6 +60,7 @@
     }
 
 .detailcard{
+    background: #f8faff;
     height: 350px;
     display: flex;
     flex-direction: column;
@@ -83,6 +81,123 @@
 }
 
 
+/* blog page styling start */
+.blog{
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    background-color: white;
+}
+.blog-detail{
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    gap: 30px;
+}
+
+.blogleftside{
+width: 60%;
+
+}
+
+.post{
+    margin-bottom: 50px;
+    border: 0.3px solid gainsboro;
+}
+
+.blogrightside{
+    width: 40%;
+}
+
+
+
+
+.blog-item-img{
+    position: relative;
+    width: 100%;
+}
+.blog-item-img > img{
+    width: 100%;
+}
+
+.blog-item-date{
+    bottom: -10px;
+    position: absolute;
+    left: 10px;
+    color: #fff;
+    background: #1345e6;
+    padding: 8px 35px;
+    border-radius: 5px;
+}
+
+.leftblogtext{
+    padding: 30px;
+}
+.blogcard{
+    background: #f8faff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.carditem{
+    border-bottom: 0.5px solid gainsboro;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+.recentpostitem{
+    display: flex;
+    border-bottom: 0.5px solid gainsboro;
+    padding-bottom: 10px;
+    margin-top: 20px;
+   
+}
+.postimg{
+    width: 80px;
+    height: 80px;
+    background-image: url(../assets/b1.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-right: 30px;
+}
+/* blog page styling end */
+
+/* contact page styling start */
+
+.map{
+    margin-top: 100px;
+}
+.map > img{
+    width: 100%;
+}
+
+.posticon > .fa-solid{
+    font-size: 50px;
+    width: 100px;
+}
+/* contact page styling end */
+
+
+@media screen and (max-width: 1207px) {
+    
+    
+
+    .blogleftside{
+        width: 60%;
+    }
+
+    .blogrightside{
+       width: 30%;
+    }
+    
+    
+            
+    }
+
 @media screen and (max-width: 1100px) {
     .detailtext{
         width: 40%;
@@ -92,6 +207,20 @@
         }
 
         
+}
+
+
+@media screen and (max-width: 993px) {
+    .blog-detail{
+        flex-direction: column;
+    }
+    .blogleftside{
+        width: 100%;
+    }
+
+    .blogrightside{
+       width: 100%;
+    }
 }
 
 
